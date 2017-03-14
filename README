@@ -1,1 +1,8 @@
 Given a text, decorates it with related emojis.
+
+Usage:
+python emojigen.py <your message> [<emoji random coef> [<emojimap file (defaults to EMOJIMAP)> [<f for force wordmap file regeneration from emojimap file>]]]
+
+Example:
+$ python emojigen.py 'gomuldum bu emoji isine' 1.0 EMOJIMAP_TR f
+gomuldum⚒  bu👇  emoji isine💾
